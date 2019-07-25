@@ -1,0 +1,48 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 500px 250px 200px 750px;
+}
+.section-title {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.section-title-logo {
+    width: 100%;
+    border-radius: 50%;
+}
+.section-title-text {
+    padding-top: 110px;
+    text-align: center;    
+}
+.section-experience{
+    display: grid;
+    grid-template-rows: 50px 150px;
+}
+.list {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.section-education {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.section-qualities {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.list-photo {
+    display: grid;
+    grid-row-gap: 20px;
+}
+.item-photo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+.section-qualities-list-image{
+    max-width: 300px;
+}
+.section-qualities-list-paragraph{
+    padding-top: 60px;
+}

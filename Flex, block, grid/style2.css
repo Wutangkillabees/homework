@@ -1,0 +1,43 @@
+table{
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+}
+.section-title {
+    display: flex;
+    height: 400px;
+}
+
+.section-title-logo {
+    width: 400px;
+    border-radius: 50%;
+}
+.section-title-text {
+    flex: 1;
+    padding-top: 110px;
+    text-align: center;
+    width: auto;
+    
+}
+.section-experience,
+.section-education,
+.section-qualities {
+    display: flex;
+    flex-direction: column; 
+}
+.list-photo {
+    display: flex;
+    flex-direction: column;
+}
+.item-photo {
+    display: flex;
+}
+.section-qualities-list-image {
+    width: 200px;
+    margin: 20px;
+   
+}
+.section-qualities-list-paragraph {
+    padding-top: 60px;
+}
